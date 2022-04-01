@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital,wght@0,400;1,100&family=Roboto&display=swap');
+/* Стили текста общие */
+body { 
+    font-family: raleway, Verdana;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+/* Стили заголовков */
+.ava {
+    text-align: center;
+}
+h1 {
+    text-shadow: 1px 1px rgb(131, 149, 155); text-align: center;
+}
+h2 {
+    text-decoration: underline;
+}
+
+/* Стили в описании */
+.int1 li {
+    list-style: square;
+}
+.table1 {
+    font-size: 15px;
+}
+.fb {
+    border: 1px dotted rgb(131, 149, 155);
+    padding: 5px;
+}
