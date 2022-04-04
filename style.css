@@ -13,6 +13,7 @@ body {
 .container {
     max-width: 400px;
     margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 /* Стили заголовков */
@@ -41,7 +42,7 @@ h2 {
     border-radius: 5px;
 }
 
-/* Стили в описании */
+/* Стили блоков */
 .desc {
     border-end-end-radius: 10px;
 }
@@ -59,9 +60,9 @@ h2 {
 .fb {
     padding: 5px;
     border-style: dashed;
+    margin-bottom: 5px;
 }
 .sn {
     text-align: center;
     border-end-end-radius: 10px;
-    margin-top: -10px;
 }
