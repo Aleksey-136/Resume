@@ -5,27 +5,63 @@ body {
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
+    color: #111111;
+    background-color: rgb(237, 238, 238);
+}
+/* Стиль контейнера */
+
+.container {
+    max-width: 400px;
+    margin: 0px auto;
 }
 
 /* Стили заголовков */
 .ava {
     text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-color: #fff;
+}
+.ava img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 h1 {
-    text-shadow: 1px 1px rgb(131, 149, 155); text-align: center;
+    text-shadow: 2px 1px rgb(180, 191, 194); text-align: center;
 }
 h2 {
     text-decoration: underline;
+    text-shadow: 1px 1px rgb(180, 191, 194); text-align: center;
+}
+
+/* Общий стиль блоков */
+.card {
+    padding: 5px;
+    background-color: #fff;
+    border: 1px dotted rgb(191, 202, 206);
+    border-radius: 5px;
 }
 
 /* Стили в описании */
+.desc {
+    border-end-end-radius: 10px;
+}
 .int1 li {
     list-style: square;
+    margin-left: -15px;
+}
+.int1 {
+    border-end-end-radius: 10px;
 }
 .table1 {
     font-size: 15px;
+    border-end-end-radius: 10px;
 }
 .fb {
-    border: 1px dotted rgb(131, 149, 155);
     padding: 5px;
+    border-style: dashed;
+}
+.sn {
+    text-align: center;
+    border-end-end-radius: 10px;
+    margin-top: -10px;
 }
