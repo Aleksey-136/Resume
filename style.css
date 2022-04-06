@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital,wght@0,400;1,100&family=Roboto&display=swap');
+
 /* Стили текста общие */
 body { 
     font-family: raleway, Verdana;
@@ -8,17 +9,20 @@ body {
     color: #111111;
     background-color: rgb(237, 238, 238);
 }
-/* Стиль контейнера и заголовок */
 
+/* Стиль контейнера и заголовок */
 .container {
     max-width: 600px;
     margin: 0px auto;
     margin-bottom: 10px;
 }
 h2 {
+    font-size: 22px;
     text-decoration: underline;
-    text-shadow: 1px 1px rgb(180, 191, 194); text-align: center;
+    text-shadow: 1px 1px rgb(180, 191, 194); 
+    text-align: center;
 }
+
 
 /* Аватар и первая часть текста */
 .intro {
@@ -30,12 +34,14 @@ h2 {
     border-end-end-radius: 15px;
     margin-bottom: 10px;
 }
+
 .intro img {
     width: 40%;
     height: 40%;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 .intro h1{
+    font-size: 26px;
     margin-top: 0;
     line-height: normal;
     text-shadow: 2px 1px rgb(180, 191, 194); 
@@ -44,6 +50,19 @@ h2 {
 .intro .text1 {
     padding-left: 20px;   
 }
+
+/* Адаптив */
+
+@media (max-width: 360px) {
+    .intro {
+        display: block;
+        text-align: center;
+    }
+    .intro h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+} 
 
 /* Общий стиль блоков */
 .card {
@@ -84,6 +103,7 @@ h2 {
 }
 
 /* Обратная связь */
+
 .fb {
     padding: 5px;
     border-style: dashed;
@@ -108,6 +128,17 @@ h2 {
     width: 100%;
     box-sizing: border-box;
     outline: none;
+}
+
+/* Адаптив */
+@media (max-width: 360px) {
+    .input-row {
+        margin-bottom: 20px;
+        display: block;
+    }
+    .input-row .form-group:last-child {
+        margin-left: 0px;
+    }
 }
 
 .btn {
