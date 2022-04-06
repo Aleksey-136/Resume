@@ -27,7 +27,7 @@ h2 {
     border: 1px dotted rgb(191, 202, 206);
     border-color: rgb(191, 202, 206);
     display: flex;
-    border-end-end-radius: 10px;
+    border-end-end-radius: 15px;
     margin-bottom: 10px;
 }
 .intro img {
@@ -55,12 +55,12 @@ h2 {
 
 /* Описание */
 .desc {
-    border-end-end-radius: 10px;
+    border-end-end-radius: 15px;
 }
 
 /* Мои интересы */
 .int1 {
-    border-end-end-radius: 10px;
+    border-end-end-radius: 15px;
 }
 .int1 li {
     list-style: square;
@@ -73,7 +73,7 @@ h2 {
 /* Опыт работы */
 .table1 {
     font-size: 15px;
-    border-end-end-radius: 10px;
+    border-end-end-radius: 15px;
     padding: 10px 10px;
 }
 .table1 table {
